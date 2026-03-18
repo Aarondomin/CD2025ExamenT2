@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="/home/vagrant/Desktop/CD2025Examen2TDAW/CD2025ExamenT2/e5/src/main/java/com/example/PedidoService.java">
+<error line="4" column="1" severity="error" message="Orden incorrecto para el import &apos;java.util.ArrayList&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="6" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="8" column="17" severity="error" message="La variable &apos;totalPedidos&apos; se inicializa explicitamente a &apos;0&apos; (valor por defecto para su tipo)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="14" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="15" column="35" severity="error" message="Expresiones literales de cadena deben estar en el lado izquierdo de un igual comparación." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="21" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="34" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="35" column="9" severity="error" message="Se puede eliminar la lógica condicional." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanReturnCheck"/>
+<error line="46" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="47" severity="error" message="La línea es mayor de 120 caracteres (encontrado 219)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="58" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="61" column="17" severity="error" message="&apos;3&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="62" column="17" severity="error" message="&apos;4&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" column="20" severity="error" message="Debe tener al menos una sentencia." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="77" column="38" severity="error" message="&apos;nomeTienda&apos; oculta un campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="/home/vagrant/Desktop/CD2025Examen2TDAW/CD2025ExamenT2/e5/src/main/java/com/example/UsuarioApp.java">
+<error line="1" severity="error" message="El fichero no termina con un retorno de carro." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="4" column="20" severity="error" message="El nombre &apos;Nombre&apos; debe coincidir con el patrón &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="8" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="8" column="30" severity="error" message="El nombre &apos;Nombre&apos; debe coincidir con el patrón &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="14" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="15" column="44" severity="error" message="Expresiones literales de cadena deben estar en el lado izquierdo de un igual comparación." source="com.puppycrawl.tools.checkstyle.checks.coding.EqualsAvoidNullCheck"/>
+<error line="31" column="34" severity="error" message="El nombre &apos;Nombre&apos; debe coincidir con el patrón &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="55" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="56" column="17" severity="error" message="&apos;10&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="57" column="17" severity="error" message="&apos;20&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" column="17" severity="error" message="&apos;30&apos; es un número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="65" column="19" severity="error" message="&apos;{&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="67" column="9" severity="error" message="&apos;}&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="67" column="10" severity="error" message="&apos;else&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="67" column="10" severity="error" message="&apos;else&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="67" column="14" severity="error" message="&apos;{&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="69" column="9" severity="error" message="&apos;}&apos; en la columna 9 debería estar solo en una línea." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="69" column="9" severity="error" message="&apos;}&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="69" column="10" severity="error" message="&apos;}&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>
